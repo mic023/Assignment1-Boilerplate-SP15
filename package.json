@@ -1,7 +1,7 @@
 {
   "name": "mywebapp",
   "version": "0.0.1",
-  "author": "Alex Yang, Brian Soe, Purvi Desai",
+  "author": "Ming Cheng, Alex Yang, Brian Soe, Purvi Desai",
   "description": "Assignment 1 for COGS 121",
   "scripts": {
     "start": "node app.js"
@@ -14,10 +14,13 @@
     "express-handlebars": "1.2.2",
     "express-session": "1.10.4",
     "instagram-node-lib": "^0.1.1",
+    "fbgraph": "0.3.0",
+    "fb": "0.7.0",
     "mongoose": "^4.0.1",
     "mongoose-findorcreate": "^0.1.2",
     "passport": "0.2.1",
-    "passport-instagram": "0.1.2"
+    "passport-instagram": "0.1.2",
+    "passport-facebook": "2.0.0"
   },
   "engines": {
     "node": "0.10.x"
