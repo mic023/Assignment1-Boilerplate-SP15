@@ -214,17 +214,17 @@ app.get('/photos', ensureAuthenticated, function(req, res){
   });
 });
 
-//app.get('/photosfb', ensureAuthenticated, function(req, res){
-//  var query  = models.User.where({ name: req.user.username });
-//  query.findOne(function (err, user) {
-//    if (err) return handleError(err);
-//    if (user) {
+app.get('/photosfb', ensureAuthenticated, function(req, res){
+  var query  = models.User.where({ name: req.user.username });
+  query.findOne(function (err, user) {
+    if (err) return handleError(err);
+    if (user) {
       // doc may be null if no document matched
-//      graph.get("/user/picture", function(err,res){
-//        console.log(res);
-//      });
-//    }
-//  }
+      //graph.get("/user/picture", function(err,res){
+       // console.log(res);
+      });
+    }
+  }
 
 
 // GET /auth/instagram
